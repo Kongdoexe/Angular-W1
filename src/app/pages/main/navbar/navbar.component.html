@@ -1,0 +1,38 @@
+<mat-toolbar
+  color="primary"
+  style="background-color: #282828; position: sticky; top: 0; z-index: 1000"
+>
+  <div
+    style="
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    "
+  >
+    <span
+      style="display: flex; align-items: center; font-size: 30px; color: white"
+    >
+      <img
+        src="../../../assets/icon.png"
+        height="50px"
+        style="margin-right: 10px"
+      />Game of Thrones
+    </span>
+  </div>
+  <div>
+    <button mat-button style="margin-right: 30px; color: white">Home</button>
+    <button mat-button style="margin-right: 30px; color: white">Story</button>
+    <button mat-button style="margin-right: 30px; color: white">
+      Episodes
+    </button>
+    <button mat-button style="margin-right: 30px; color: white">Videos</button>
+    <button
+      mat-button
+      style="margin-right: 30px; color: white"
+      routerLink="login"
+    >
+      Log out
+    </button>
+  </div>
+</mat-toolbar>

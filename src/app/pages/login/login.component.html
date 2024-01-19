@@ -1,0 +1,27 @@
+<body>
+  <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; height: 100%;">
+    <mat-card style="width: 450px;">
+      <mat-card-header>
+        <div>
+          <mat-card-title style="text-align: center; width: 420px;"><mat-icon class="mat-18">lock</mat-icon>Login to My System</mat-card-title>
+          <br>
+          <mat-card-subtitle>Please enter username and password</mat-card-subtitle>
+        </div>
+      </mat-card-header>
+      <br>
+      <mat-form-field class="form" appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <br>
+      <mat-form-field class="form" appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-card-actions style="display: flex; flex-direction: row; justify-content: space-between;">
+        <button mat-button>Sing up</button>
+        <button mat-raised-button color="primary" routerLink="">Login</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</body>
