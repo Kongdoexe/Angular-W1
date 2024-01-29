@@ -40,3 +40,13 @@ mat-label{
 hr {
   opacity: 10%;
 }
+
+*{
+  --mdc-outlined-text-field-outline-color: white !important;
+  --mdc-outlined-text-field-hover-outline-color: white !important;
+  --mdc-outlined-text-field-focus-outline-color: white !important;
+}
+
+mat-icon{
+  color: rgb(96, 125, 139);
+}

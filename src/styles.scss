@@ -1,5 +1,3 @@
-// styles.scss
-
 // Import Angular Material styles
 @use '@angular/material' as mat;
 @include mat.core();
@@ -16,6 +14,21 @@ $Angular-W1-theme: mat.define-light-theme((
   )
 ));
 @include mat.all-component-themes($Angular-W1-theme);
+
+// สีของขอบ textarea
+$custom-textarea-border-color: white;
+
+// สร้าง theme ที่กำหนดสีของ textarea
+$custom-textarea-theme: (
+  text-area: (
+    border-color: $custom-textarea-border-color,
+  ),
+);
+
+.custom-textarea {
+  // ปรับแต่งสีขอบของ textarea
+  border-color: white;
+}
 
 // Override Bootstrap background color
 html, body {
